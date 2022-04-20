@@ -82,7 +82,7 @@ class ConvertModel(nn.Module):
         self,
         onnx_model: onnx.ModelProto,
         batch_dim=0,
-        experimental=False,
+        experimental=True,
         debug=False,
         enable_pruning=False,
     ):
